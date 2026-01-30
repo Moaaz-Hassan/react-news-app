@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import NewsCard from "../components/NewsCard";
 import Loder from "../components/loder";
 import useGetData from "../hookes/useGetData";
-import { BookMarkContext } from "../contextes/BookMarkContext";
+
 
 function Search() {
   const { searchValue } = useParams();
