@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import { Outlet } from "react-router-dom";
-import { SelectedNewsContext } from "../contextes/selectedNewsContext";
+import { SelectedNewsContext } from "../contextes/SelectedNewsContext.jsx";
 import { useContext } from "react";
 import OpenSpecificNewsDetails from "../components/OpenSpecificNewsDetails";
 
