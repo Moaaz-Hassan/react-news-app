@@ -2,7 +2,6 @@
 
 A modern **React News Application** that allows users to browse the latest news, explore categories, search for specific headlines, and bookmark favorite articles. The app is built with **React**, **React Router**, **React Query**, **Tailwind CSS**, and integrates with the **GNews API**.
 
-### [Live Demo](https://##)
 ---
 
 
