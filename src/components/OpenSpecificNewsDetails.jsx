@@ -2,7 +2,7 @@ import React from "react";
 import { timeAgo } from "../Services/timeFormat";
 import { isBookmarked, toggleElement } from "../Services/BookmarkServices";
 import { useContext } from "react";
-import { SelectedNewsContext } from "../contextes/selectedNewsContext";
+import { SelectedNewsContext } from "../contextes/SelectedNewsContext";
 import { BookMarkContext } from "../contextes/BookMarkContext";
 import placeholder from "../assets/placeholder.jpg";
 
