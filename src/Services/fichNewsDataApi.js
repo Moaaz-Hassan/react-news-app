@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const Key = "7d939f9094965626858d2d9c9a874580"
+const Key = import.meta.env.VITE_GNEWS_API_KEY;
 
 export async function getDataByCategory(cat ){
     const url = `https://gnews.io/api/v4/top-headlines?category=${cat}&lang=en&apikey=${Key}`
